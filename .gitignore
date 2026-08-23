@@ -44,3 +44,7 @@ services/ai/services/__pycache__/*
 services/ai/__pycache__/*
 core/objects/__pycache__/*
 core/systems/__pycache__/*
+# PRDs live in the INTERNAL stonedog-prd repo, never here. `docs/prd` is a
+# symlink into it, so the documents are where a person expects while this
+# repository commits none of them. See the StoneDogCode CLAUDE.md.
+docs/prd

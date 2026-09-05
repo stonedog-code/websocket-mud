@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "project": "websocket-mud",
+  "//languages": "Two languages in one repo: the Python MUD server (tests/) and the Angular client (website/client2, .spec.ts beside each component). Both are unit; the inventory reports them separately by language.",
+  "tiers": {
+    "unit": {
+      "include": ["tests/test_*.py", "website/client2/src/**/*.spec.ts"]
+    }
+  }
+}
